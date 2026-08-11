@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickTock - Watches</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar {
+            background-color: #1f3a5f;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: white !important;
+        }
+
+        .navbar-brand {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            margin-left: 15px;
+        }
+
+        .nav-link:hover {
+            color: #ffd166 !important;
+        }
+
+        .page-title {
+            padding: 50px 0 30px;
+        }
+
+        .watch-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .watch-card:hover {
+            transform: translateY(-7px);
+        }
+
+        .watch-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #3d2f2f;
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .footer a:hover {
+            color: #ffd166;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">⌚ TickTock</a>
+
+        <button class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="watches.html">Watches</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="men.html">Men</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="women.html">Women</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="brands.html">Brands</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Page Heading -->
+<section class="page-title text-center">
+    <div class="container">
+        <h1>Our Watch Collection</h1>
+        <p>Explore stylish watches for every occasion.</p>
+    </div>
+</section>
+
+
+<!-- Watches -->
+<section class="pb-5">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Watch 1 -->
+            <div class="col-md-4 col-lg-3">
+                <div class="card watch-card shadow-sm h-100">
+                    <img src="images/classic-watch.jpg"
+                         class="card-img-top"
+                         alt="Classic Black Watch">
+
+                    <div class="card-body text-center">
+                        <h5>Classic Black Watch</h5>
+                        <p>₹2,499</p>
+                        <a href="contact.html" class="btn btn-dark">
+                            Buy Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Watch 2 -->
+            <div class="col-md-4 col-lg-3">
+                <div class="card watch-card shadow-sm h-100">
+                    <img src="images/silver-watch.jpg"
+                         class="card-img-top"
+                         alt="Silver Watch">
+
+                    <div class="card-body text-center">
+                         <h5>Silver Steel Watch</h5>
+            <p>₹3,299</p>
+
+            <a href="contact.html" class="btn btn-dark">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Watch 3 -->
+<div class="col-md-4 col-lg-3">
+    <div class="card watch-card shadow-sm h-100">
+
+        <img src="images/elegant-watch.jpg"
+             class="card-img-top"
+             alt="Elegant Women's Watch">
+
+        <div class="card-body text-center">
+            <h5>Elegant Rose Gold</h5>
+            <p>₹2,899</p>
+
+            <a href="contact.html" class="btn btn-dark">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Watch 4 -->
+<div class="col-md-4 col-lg-3">
+    <div class="card watch-card shadow-sm h-100">
+
+        <img src="images/sport-watch.jpg"
+             class="card-img-top"
+             alt="Sport Watch">
+
+        <div class="card-body text-center">
+            <h5>Sport Watch</h5>
+            <p>₹1,999</p>
+
+            <a href="contact.html" class="btn btn-dark">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Watch 5 -->
+<div class="col-md-4 col-lg-3">
+    <div class="card watch-card shadow-sm h-100">
+
+        <img src="images/leather-watch.jpg"
+             class="card-img-top"
+             alt="Leather Watch">
+
+        <div class="card-body text-center">
+            <h5>Leather Strap Watch</h5>
+            <p>₹2,699</p>
+
+            <a href="contact.html" class="btn btn-dark">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Watch 6 -->
+<div class="col-md-4 col-lg-3">
+    <div class="card watch-card shadow-sm h-100">
+
+        <img src="images/chrono-watch.jpg"
+             class="card-img-top"
+             alt="Chronograph Watch">
+
+        <div class="card-body text-center">
+            <h5>Premium Chronograph</h5>
+            <p>₹4,499</p>
+
+            <a href="contact.html" class="btn btn-dark">
+                Buy Now
+            </a>
+        </div>
+
+    </div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+
+    <div class="container py-5">
+
+        <div class="row">
+
+            <!-- Brand -->
+            <div class="col-md-4 mb-4">
+
+                <h3>⌚ TickTock</h3>
+
+                <p>
+                    Every Second, Every Style.
+                    Discover watches that match your personality.
+                </p>
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4">
+
+                <h5>Quick Links</h5>
+
+                <a href="index.html">Home</a>
+                <a href="watches.html">Watches</a>
+                <a href="men.html">Men</a>
+                <a href="women.html">Women</a>
+                <a href="brands.html">Brands</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            
+            <div class="col-md-4 mb-4">
+
+                <h5>Contact Us</h5>
+
+                <p>📞 +91 80988 59566</p>
+                <p>📧 ticktock@gmail.com</p>
+                <p>📍 Chennai, Tamil Nadu</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+
+            <p class="mb-0">
+                © 2026 TickTock. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
